@@ -27,8 +27,12 @@ namespace PhotoViewer
         public MainWindow()
         {
             this.InitializeComponent();
+
+            Title = "Photo Viewer";
+            ExtendsContentIntoTitleBar = true;
+            SetTitleBar(TitleBar);
         }
-        // The ItemsSource used is a list of custom-class Bar objects called BarItems
+        
 
         
 
